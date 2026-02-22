@@ -1,0 +1,14 @@
+name = "nanokvm-discord-capture"
+main = "target/wasm32-wasip2/release/nanokvm-discord-capture.wasm"
+type = "cli"
+
+[build]
+command = "cargo build --target wasm32-wasip2 --release"
+
+[capabilities]
+wasi = true
+
+[target.default]
+remote = "192.168.1.143:4443"
+server_name = "localhost"
+client_key = "certs/client.key"
