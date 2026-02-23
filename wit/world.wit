@@ -1,0 +1,5 @@
+package nanokvm:component;
+
+world imports {
+    import imago:nanokvm/capture@0.1.0;
+}

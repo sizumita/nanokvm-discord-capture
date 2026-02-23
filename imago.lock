@@ -1,0 +1,20 @@
+version = 1
+
+[[dependencies]]
+name = "imago:nanokvm"
+version = "0.1.0"
+wit_source = "oci://ghcr.io/yieldspace/imago/nanokvm@0.1.0"
+wit_digest = "a5e635e7045c6ad00d6d7537cf145282c84d5f8cbc532b96cc949d276e230f1a"
+wit_path = "wit/deps/imago-nanokvm"
+resolved_at = "1771809744"
+
+[[wit_packages]]
+name = "wasi:io"
+
+[[wit_packages.versions]]
+requirement = "=0.2.6"
+version = "0.2.6"
+digest = "sha256:6f7c12243cc148af954df7d1cc7f39f76425b28afa0ed95ecad9826cc952b72e"
+source = "oci://ghcr.io/wasi/io@0.2.6"
+path = "wit/deps/wasi-io"
+via = ["imago:nanokvm"]
