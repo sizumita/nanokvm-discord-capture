@@ -6,7 +6,7 @@ version = "0.1.0"
 wit_source = "oci://ghcr.io/yieldspace/imago/nanokvm@0.1.0"
 wit_digest = "a5e635e7045c6ad00d6d7537cf145282c84d5f8cbc532b96cc949d276e230f1a"
 wit_path = "wit/deps/imago-nanokvm"
-resolved_at = "1771809744"
+resolved_at = "1771813888"
 
 [[wit_packages]]
 name = "wasi:io"
